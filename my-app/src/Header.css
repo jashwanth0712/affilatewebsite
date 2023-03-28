@@ -1,0 +1,84 @@
+.header {
+  background-color: #fff;
+  color: #333;
+  position: relative;
+  padding: 50px 0;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background-color: transparent;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand img {
+  height: 50px;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-item {
+  margin: 0 10px;
+}
+
+.navbar-link {
+  color: #333;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.navbar-link:hover {
+  color: #009688;
+}
+
+.header-content {
+  text-align: center;
+}
+
+.header-title {
+  font-size: 72px;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.header-description {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.btn-primary {
+  display: inline-block;
+  background-color: #009688;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 15px 40px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #00827c;
+  cursor: pointer;
+}
+
+.btn-primary:active {
+  transform: translateY(2px);
+}

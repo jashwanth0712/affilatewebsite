@@ -1,8 +1,32 @@
-.header {
-  background-color: #fff;
-  color: #333;
+body {
+  background-image: url('https://thumbs.dreamstime.com/b/united-happy-multi-ethnic-team-give-high-five-together-share-success-united-happy-multi-ethnic-startup-team-give-high-five-138763623.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
   position: relative;
-  padding: 50px 0;
+}
+
+body:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+.header {
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 
 .navbar {
@@ -81,4 +105,80 @@
 
 .btn-primary:active {
   transform: translateY(2px);
+}
+/* Mobile */
+.header {
+  padding: 20px;
+  text-align: center;
+}
+
+.header-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.header-description {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  display: block;
+  margin: 0 auto;
+  max-width: 150px;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .header {
+    padding: 50px;
+  }
+
+  .header-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .header-description {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .btn-primary {
+    max-width: 200px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .header {
+    padding: 100px;
+  }
+
+  .header-title {
+    font-size: 48px;
+    margin-bottom: 30px;
+  }
+
+  .header-description {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+
+  .btn-primary {
+    max-width: 250px;
+  }
+}
+p {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  color: #1E90FF; /* Set text color to a bright blue */
+  font-size: 1.2rem; /* Increase font size a bit */
+  font-weight: bold; /* Make text bold */
+  text-align: center; /* Center the text */
+  background-color: #FFF8DC; /* Set a light yellow background color */
+  padding: 20px; /* Add some padding around the text */
+  border: 2px solid #FFD700; /* Add a gold border */
+  border-radius: 10px; /* Round the corners of the border */
 }

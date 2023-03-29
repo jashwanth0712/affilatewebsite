@@ -8,12 +8,14 @@ const HeroSection = () => {
         <div className="hero-content">
           <h2>Get Your Hearing Back on Track with Quietum Plus</h2>
           <p>
-            Quietum Plus is an all-natural dietary supplement designed to improve
-            your hearing health and prevent hearing loss. It is made from a
-            blend of vitamins, minerals, and herbal extracts that work together
-            to support the health of your ears and auditory system.
+             Be friendly and helpful<br/>
+             Be able to chat online in basic English<br/>
+            Own a laptop, tablet, or smartphone<br/>
+            Have regular access to the internet<br/>
+            Be reliable and dependable
           </p>
-          <button>Order Now</button>
+          <a href="https://hop.clickbank.net/?affiliate=369369gr&vendor=socialsrep&pid=joblandingpage&ifso=280adayworkasalivechatassistant" className="btn-primary">Apply now</a>
+
         </div>
       </div>
     </section>

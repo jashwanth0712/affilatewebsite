@@ -1,3 +1,4 @@
+
 .hero-section {
    
     background-size: cover;
@@ -24,18 +25,42 @@
     margin-bottom: 2rem;
   }
   
-  button {
-    background-color: #f80;
-    color: #fff;
-    padding: 1rem 2rem;
-    border: none;
-    border-radius: 5px;
-    font-size: 1.5rem;
-    cursor: pointer;
-    transition: background-color 0.2s ease-in-out;
+  
+ 
+  
+  .containr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
-  button:hover {
-    background-color: #f60;
+  @media only screen and (min-width: 768px) {
+    .containr {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+  
+  .hero-content {
+    text-align: center;
+  }
+  
+  .hero-content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  
+ 
+  
+ 
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;
   }
   

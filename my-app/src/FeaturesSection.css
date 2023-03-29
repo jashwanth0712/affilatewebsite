@@ -29,6 +29,7 @@
   
   .feature-icon {
     background-color: #ff7f50;
+    margin: 10px;
     border-radius: 50%;
     display: inline-flex;
     align-items: center;
